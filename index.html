@@ -1,13 +1,308 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://http2.mlstatic.com/frontend-assets/ml-web-navigation/ui-navigation/5.21.22/mercadolibre/favicon.svg" rel="icon" data-head-react="true">
+    <link
+        href="https://http2.mlstatic.com/frontend-assets/ml-web-navigation/ui-navigation/5.21.22/mercadolibre/favicon.svg"
+        rel="icon" data-head-react="true">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/76dba94f9b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style/style.css">
     <title>Mercado Libre Argentina - Envíos Gratis en el día</title>
 </head>
+
 <body>
-    
+    <main>
+        <!--(4)sales-section-->
+        <section class="sales-section container">
+            <div class="header-item d-flex align-items-baseline">
+                <h2 class="fs-2">Ofertas</h2>
+                <a href="#" class="fs-5">Ver todas</a>
+            </div>
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="card-container d-flex">
+                            <div class="card border-white">
+                                <div class="img-card ">
+                                    <div
+                                        class="icon-heart position-absolute top-0 end-0 d-flex align-items-center justify-content-center">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </div>
+                                    <img src="https://http2.mlstatic.com/D_Q_NP_822653-MLA52888570542_122022-AB.webp"
+                                        class="card-img-top" alt="">
+                                </div>
+                                <div class="card-body">
+                                    <div class="price-old">$ 194.999</div>
+                                    <div class="sale d-flex align-items-center">
+                                        <p>$145.999</p>
+                                        <p class="sale-porcent">25% OFF</p>
+                                    </div>
+                                    <p>Mismo precio en 6 cuotas de $24.333</p>
+                                    <div></div>
+                                    <div class="description">
+                                        <p>Aire acondicionado Sansei split frío/calor 2800 frigorías blanco</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card border-white">
+                                <div class="img-card">
+                                    <div
+                                        class="icon-heart position-absolute top-0 end-0 d-flex align-items-center justify-content-center">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </div>
+                                    <img src="https://http2.mlstatic.com/D_Q_NP_871900-MLA52841846582_122022-AB.webp"
+                                        class="card-img-top" alt="">
+                                </div>
+                                <div class="card-body">
+                                    <div class="price-old">$ 194.999</div>
+                                    <div class="sale d-flex align-items-center">
+                                        <p>$145.999</p>
+                                        <p class="sale-porcent">25% OFF</p>
+                                    </div>
+                                    <p>Mismo precio en 6 cuotas de $24.333</p>
+                                    <div class="description">
+                                        <p>Aire acondicionado Sansei split frío/calor 2800 frigorías blanco</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card border-white">
+                                <div class="img-card">
+                                    <div
+                                        class="icon-heart position-absolute top-0 end-0 d-flex align-items-center justify-content-center">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </div>
+                                    <img src="https://http2.mlstatic.com/D_Q_NP_880153-MLA53686985031_022023-AB.webp"
+                                        class="card-img-top" alt="">
+                                </div>
+                                <div class="card-body">
+                                    <div class="price-old">$ 194.999</div>
+                                    <div class="sale d-flex align-items-center">
+                                        <p>$145.999</p>
+                                        <p class="sale-porcent">25% OFF</p>
+                                    </div>
+                                    <p>Mismo precio en 6 cuotas de $24.333</p>
+                                    <div class="description">
+                                        <p>Aire acondicionado Sansei split frío/calor 2800 frigorías blanco</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card border-white">
+                                <div class="img-card">
+                                    <div
+                                        class="icon-heart position-absolute top-0 end-0 d-flex align-items-center justify-content-center">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </div>
+                                    <img src="https://http2.mlstatic.com/D_Q_NP_904408-MLA52377361889_112022-AB.webp"
+                                        class="card-img-top" alt="">
+                                </div>
+                                <div class="card-body">
+                                    <div class="price-old">$ 194.999</div>
+                                    <div class="sale d-flex align-items-center">
+                                        <p>$145.999</p>
+                                        <p class="sale-porcent">25% OFF</p>
+                                    </div>
+                                    <p>Mismo precio en 6 cuotas de $24.333</p>
+                                    <div class="description">
+                                        <p>Aire acondicionado Sansei split frío/calor 2800 frigorías blanco</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card border-white">
+                                <div class="img-card">
+                                    <div
+                                        class="icon-heart position-absolute top-0 end-0 d-flex align-items-center justify-content-center">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </div>
+                                    <img src="https://http2.mlstatic.com/D_Q_NP_805951-MLA50865156506_072022-AB.webp"
+                                        class="card-img-top" alt="">
+                                </div>
+                                <div class="card-body">
+                                    <div class="price-old">$ 194.999</div>
+                                    <div class="sale d-flex align-items-center">
+                                        <p>$145.999</p>
+                                        <p class="sale-porcent">25% OFF</p>
+                                    </div>
+                                    <p>Mismo precio en 6 cuotas de $24.333</p>
+                                    <div class="description">
+                                        <p>Aire acondicionado Sansei split frío/calor 2800 frigorías blanco</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card-container flex-row-reverse d-flex">
+                            <div class="card border-white">
+                                <div class="img-card">
+                                    <div
+                                        class="icon-heart position-absolute top-0 end-0 d-flex align-items-center justify-content-center">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </div>
+                                    <img src="https://http2.mlstatic.com/D_Q_NP_822653-MLA52888570542_122022-AB.webp"
+                                        class="card-img-top" alt="">
+                                </div>
+                                <div class="card-body">
+                                    <div class="price-old">$ 194.999</div>
+                                    <div class="sale d-flex align-items-center">
+                                        <p>$145.999</p>
+                                        <p class="sale-porcent">25% OFF</p>
+                                    </div>
+                                    <p>Mismo precio en 6 cuotas de $24.333</p>
+                                    <div class="description">
+                                        <p>Aire acondicionado Sansei split frío/calor 2800 frigorías blanco</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card border-white">
+                                <div class="img-card">
+                                    <div
+                                        class="icon-heart position-absolute top-0 end-0 d-flex align-items-center justify-content-center">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </div>
+                                    <img src="https://http2.mlstatic.com/D_Q_NP_871900-MLA52841846582_122022-AB.webp"
+                                        class="card-img-top" alt="">
+                                </div>
+                                <div class="card-body">
+                                    <div class="price-old">$ 194.999</div>
+                                    <div class="sale d-flex align-items-center">
+                                        <p>$145.999</p>
+                                        <p class="sale-porcent">25% OFF</p>
+                                    </div>
+                                    <p>Mismo precio en 6 cuotas de $24.333</p>
+                                    <div class="description">
+                                        <p>Aire acondicionado Sansei split frío/calor 2800 frigorías blanco</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card border-white">
+                                <div class="img-card">
+                                    <div
+                                        class="icon-heart position-absolute top-0 end-0 d-flex align-items-center justify-content-center">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </div>
+                                    <img src="https://http2.mlstatic.com/D_Q_NP_880153-MLA53686985031_022023-AB.webp"
+                                        class="card-img-top" alt="">
+                                </div>
+                                <div class="card-body">
+                                    <div class="price-old">$ 194.999</div>
+                                    <div class="sale d-flex align-items-center">
+                                        <p>$145.999</p>
+                                        <p class="sale-porcent">25% OFF</p>
+                                    </div>
+                                    <p>Mismo precio en 6 cuotas de $24.333</p>
+                                    <div class="description">
+                                        <p>Aire acondicionado Sansei split frío/calor 2800 frigorías blanco</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card border-white">
+                                <div class="img-card">
+                                    <div
+                                        class="icon-heart position-absolute top-0 end-0 d-flex align-items-center justify-content-center">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </div>
+                                    <img src="https://http2.mlstatic.com/D_Q_NP_904408-MLA52377361889_112022-AB.webp"
+                                        class="card-img-top" alt="">
+                                </div>
+                                <div class="card-body">
+                                    <div class="price-old">$ 194.999</div>
+                                    <div class="sale d-flex align-items-center">
+                                        <p>$145.999</p>
+                                        <p class="sale-porcent">25% OFF</p>
+                                    </div>
+                                    <p>Mismo precio en 6 cuotas de $24.333</p>
+                                    <div class="description">
+                                        <p>Aire acondicionado Sansei split frío/calor 2800 frigorías blanco</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card border-white">
+                                <div class="img-card">
+                                    <div
+                                        class="icon-heart position-absolute top-0 end-0 d-flex align-items-center justify-content-center">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </div>
+                                    <img src="https://http2.mlstatic.com/D_Q_NP_805951-MLA50865156506_072022-AB.webp"
+                                        class="card-img-top" alt="">
+                                </div>
+                                <div class="card-body">
+                                    <div class="price-old">$ 194.999</div>
+                                    <div class="sale d-flex align-items-center">
+                                        <p>$145.999</p>
+                                        <p class="sale-porcent">25% OFF</p>
+                                    </div>
+                                    <p>Mismo precio en 6 cuotas de $24.333</p>
+                                    <div class="description">
+                                        <p>Aire acondicionado Sansei split frío/calor 2800 frigorías blanco</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <!--suscription-offer-section-->
+        <section class="subscription-offer-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="card-offer-container">
+                            <div class="card rounded">
+                                <div class="card-header d-flex align-items-center justify-content-between">
+                                    <h3 class="mb-0">Suscribite al nivel 6</h3>
+                                    <div class="offer-price d-flex flex-column aligne-content-start">
+                                        <span class="price-old offer-old pb-0">$1439</span>
+                                        <span class="actual-offer">$ 499<span class="co-price">/mes</span></span>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text fs-5" id="card-text">Conseguí los mejores beneficios en Mercado Libre</p>
+                                    <div class="offer-bonus d-flex justify-content-between align-items-center">
+                                        <div class="d-flex border-white bonus-item">
+                                            <img src="https://http2.mlstatic.com/resources/frontend/statics/loyal/partners/widget-l6/dplus.svg" alt="disney" srcset="">
+                                            <p class="fs-6">Disney+ sin cargo</p>
+                                        </div>
+                                        <div class="d-flex border-white bonus-item">
+                                            <img src="https://http2.mlstatic.com/resources/frontend/statics/loyal/partners/widget-l6/starplus.svg" alt="star-plus" srcset="">
+                                            <p class="fs-6">Star+ sin cargo</p>
+                                        </div>
+                                        <div class="d-flex border-white bonus-item">
+                                            <img src="https://http2.mlstatic.com/resources/frontend/statics/loyal/v2/truckgiftv4@2x.png" alt="envíos" srcset="">
+                                            <p class="fs-6">Envíos gratis y rápidos desde $ 8.000 y 45% OFF en envíos de menos de $ 8.000</p>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+            </script>
+    </main>
 </body>
+
 </html>

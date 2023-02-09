@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ededed;
+    font-family: 'Roboto', sans-serif;
+}
+
+main{
+    margin: 0 6% 0 6%;
+    min-height: 100%;
+}
+
+.sales-section{
+    padding: 70px 0px 35px 0px;
+}
+
+.header-item{
+    padding: 0px 0px 22px;
+}
+
+.header-item>a{
+    text-decoration: none;
+    padding: 10px 0px 2px 16px;
+    color: #6a83f8;
+}
+
+.header-item>h2{
+    color: #666;
+    font-size: 26px;
+    font-weight: 300;
+    margin: 0 0 0 8px;
+}
+
+/*--card--*/
+.card{
+    background-color: #fff;
+    border-radius: 2px;
+    cursor: pointer;
+    margin: 0.5em;
+}
+
+.card-body>.description>p, .card-body>.price-old{
+    color: #666;
+    font-size: small;
+    visibility: hidden;
+}
+
+
+.price-old{
+    text-decoration:line-through;
+}
+
+.card-body>.sale{
+    font-size: larger;
+}
+
+.sale>p{
+    font-size: x-large;
+    font-weight: bolder;
+    color: #333;
+
+}
+
+.sale .sale-porcent, .card-body>p{
+    color: #00a650;
+    font-size: small;
+    padding: 2px;
+}
+
+.sale .sale-porcent{
+    margin-left: 10px;
+}
+
+.img-card i{
+    color: #6a83f8;
+    font-size: larger;
+}
+
+.icon-heart{
+    background-color: #ffffff83;
+    padding: 3px;
+    border-radius: 50%;
+    margin: 15px;
+    width: 2rem;
+    height: 2rem;
+    text-align: center;
+    visibility: hidden;
+
+}
+
+/*--card sale efects--*/
+
+.card:hover .icon-heart {
+    visibility: visible;
+}
+
+.card:hover .card-body>.description>p{
+    visibility: visible;
+}
+
+.card:hover .card-body>.price-old{
+    visibility: visible;
+}
+
+.card-container .card:hover{
+    box-shadow: 0px 0px 23px -4px rgba(173,173,173,1);
+    transition: 0.5s;
+}
+
+/*--card suscription offert--*/
+
+.card-header{
+    background: linear-gradient(90deg,#a90f90 55%,#0c1a51);
+    padding: 16px;
+    color: #ededed;
+}
+
+.card-header>h1{
+    font-weight: bold;
+}
+
+.offer-price{
+    border-left: solid 3px #ededed;
+    padding-left: 10px;
+}
+
+.offer-price>.actual-offer{
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.actual-offer>span{
+    font-size: 1rem;
+}
+
+#card-text{
+    color: #333;
+}
+
+.bonus-item{
+    
+}
