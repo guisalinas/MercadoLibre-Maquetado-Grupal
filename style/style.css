@@ -6,16 +6,10 @@
 
 body{
     background-color: #ededed;
-    font-family: 'Roboto', sans-serif;
 }
 
 main{
-    margin: 0 6% 0 6%;
     min-height: 100%;
-}
-
-.sales-section{
-    padding: 70px 0px 35px 0px;
 }
 
 .header-item{
@@ -33,6 +27,10 @@ main{
     font-size: 26px;
     font-weight: 300;
     margin: 0 0 0 8px;
+}
+
+h2{
+    color: #666;
 }
 
 /*--card--*/
@@ -89,7 +87,6 @@ main{
     height: 2rem;
     text-align: center;
     visibility: hidden;
-
 }
 
 /*--card sale efects--*/
@@ -100,6 +97,7 @@ main{
 
 .card:hover .card-body>.description>p{
     visibility: visible;
+    
 }
 
 .card:hover .card-body>.price-old{
@@ -111,7 +109,7 @@ main{
     transition: 0.5s;
 }
 
-/*--card suscription offert--*/
+/*--card suscription offer--*/
 
 .card-header{
     background: linear-gradient(90deg,#a90f90 55%,#0c1a51);
@@ -141,6 +139,270 @@ main{
     color: #333;
 }
 
-.bonus-item{
-    
+.bonus-item>img{
+    border-radius: 50%;
+    border: solid 1px #e0e0e0;
 }
+
+#ship{
+    width: 82px;
+}
+
+/*nav-bar*/
+/*---------------------------------------------------*/
+
+/* modificaciones de clases predefinidas de Bootstrap */
+.navbar {
+    --bs-navbar-padding-y: 0;
+}
+
+.dropdown-menu {
+    --bs-dropdown-link-color: white;
+    --bs-dropdown-link-hover-color: white;
+    --bs-dropdown-link-hover-bg: blue;
+    --bs-dropdown-color: blue;
+    --bs-dropdown-bg: #333;
+}
+  /* ---------------------------------------------- */
+
+header {
+    background-color: #fff159;
+}
+
+.nav-header {
+    background-color: #fff159;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.search-box {
+    padding: 7px 60px 9px 15px;
+    border-radius: 2px;
+    width: 100%;
+}
+
+.lupita {
+    background-color: var(--bs-form-control-bg);
+}
+
+.suscription-picture {
+    height: 39px;
+    width: 340px;
+}
+
+.div-usuario {
+    font-weight: 400;
+}
+
+.carrito {
+    margin-top: -5px;
+}
+
+.enviar-a {
+    font-size: 55%;
+    font-weight: 200;
+    margin: -2px 0px -2px 0px;
+}
+
+.capital-federal {
+    font-size: 65%;
+}
+
+/* Más información */
+
+.accordion-header {
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.accordion-button {
+    font-size: 13px;
+    padding: 8px;
+    border-top: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+}
+
+.accordion-body h5 {
+    font-size: 13px;
+}
+
+/* Footer */
+
+footer li {
+    font-weight: 500;
+    font-size: 12px;
+}
+
+footer p {
+    font-size: 10px;
+}
+
+/*--NAHUE--*/
+.modified-card {
+
+    width: 170px;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+.modified-card img {
+    width: 48px;
+    filter: invert(47%) sepia(89%) saturate(394%) hue-rotate(150deg) brightness(90%) contrast(94%);
+}
+
+.modified-card:hover {
+    background-color: #25a9da;
+    color: white;
+}
+
+.modified-card:hover img {
+    filter: invert(97%) sepia(100%) saturate(0%) hue-rotate(37deg) brightness(103%) contrast(103%);
+}
+
+.Categories-prev-button,
+.Categories-next-button {
+
+    height: 64px;
+    width: 64px;
+    border-radius: 50%;
+    margin: auto;
+    opacity: 0.9;
+    background-color: white;
+
+}
+
+.Categories-prev-button {
+    left: -3%;
+    box-shadow: -9px -4px 16px 1px rgba(0, 0, 0, 0.35);
+}
+
+.Categories-next-button {
+    right: -3%;
+    box-shadow: 9px -4px 16px 1px rgba(0, 0, 0, 0.35);
+}
+
+.container-popularCategories {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.Categories-prev-button img,
+.Categories-next-button img {
+    height: 50%;
+    filter: invert(61%) sepia(90%) saturate(1507%) hue-rotate(160deg) brightness(90%) contrast(89%);
+}
+
+#carousel-categories-mercadolibre h3 {
+    color: rgb(145, 121, 121);
+}
+
+/*--FRAN--*/
+
+/* Configuración de toda la web */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Color de fondo de TODA la pagina */
+body{
+    background: #ededed;
+}
+
+/* Botón del Carroussel activo */
+.carousel-indicators .active {
+    border-radius: 100%;
+    width: 10px;
+    height: 10px;
+    border: 1px solid black;
+}
+
+/* Botones normales sin seleccionar del carrousel */
+.carousel-indicators [data-bs-target] {
+    border-radius: 100%;
+    width: 10px;
+    height: 10px;
+    border: 1px solid black;
+}
+/* Links sin el subrayado feo ese */
+a{
+    text-decoration: none;
+}
+
+/* Contenedor del carrousel */
+.belowcarousel{
+    margin: 40px 0px;
+}
+
+/* Sección de pagos */
+.payment-container{
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border-radius: 5px;
+}
+
+/* Acá inicia cada sección de la sección de pagos (Valga la redundancia) ------ */
+.payment-data{
+    flex: 1 0 auto;
+    padding: 20px;
+    height: 90px;
+    font-size: 18px;
+    white-space: nowrap;
+}
+.payment-data > p {
+    display: inline-block;
+    margin-top: 1px;
+}
+.payment-data > a{
+    display: flex;
+    justify-content: center;
+}
+.payment-data > img{
+    float: left;
+    height: 54px;
+    margin-right: 16px;
+    width: 48px;
+}
+.payment-plus{
+    border-left-width: 5px;
+    flex: 1 0 auto;
+    padding: 20px;
+    height: 90px;
+    font-size: 18px;
+    white-space: nowrap;
+}
+
+.text-center{
+    text-align: start!important;
+}
+
+.subtitle{
+    color: #999;
+    font-size: 14px;
+    margin-top: -1px;
+}
+/* Acá termina la sección de pagos */
+
+
+
+/*--LU--*/
+h2>:link{
+    font-size:small;
+    }
+    h2{
+        font-family: Arial, Helvetica, sans-serif;
+    }
